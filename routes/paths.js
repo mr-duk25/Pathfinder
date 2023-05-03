@@ -11,4 +11,11 @@ var pathsCtrl = require('../controllers/paths');
 //GET /paths
 router.get('/', pathsCtrl.index);
 
+//GET /paths:id
+router.get('/:id', pathsCtrl.show);
+
+
+
+
+
 module.exports = router;
