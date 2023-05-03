@@ -13,7 +13,7 @@
     <ul>
       <% paths.forEach(function(p) { %>
         <li>
-          <%= p.path %>
+          <a href="/paths/<%= p.id %>"><%= p.path %></a>
             - 
           <%= p.ready ? 'Ready' : 'Not Yet' %>
         </li>
