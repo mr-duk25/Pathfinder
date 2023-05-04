@@ -12,6 +12,11 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+// tester middleware
+app.use(function(req, res, next) {
+  console.log('Yo!');
+  next();  // Pass the request to the next middleware
+});
 
 app.use(logger('dev'));
 app.use(express.json());
