@@ -6,3 +6,27 @@ body {
 a {
   color: #00B7FF;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}
+
+h1 {
+  color:rgb(248, 248, 252);
+  background-color:cornflowerblue;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 8vmin;
+  border: 0.5vmin solid black;
+  border-radius: 10%;
+  padding: 3vmin;
+
+
+}
+
+blockquote {
+  border-radius: 20%;
+}
